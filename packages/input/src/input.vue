@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'LgInput',
+  name: 'LeslieInput',
   inheritAttrs: false,
   props: {
     value: {

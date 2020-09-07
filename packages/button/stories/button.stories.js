@@ -1,13 +1,13 @@
-import LgButton from '../'
+import LeslieButton from '../'
 
 export default {
-  title: 'LgButton',
-  component: LgButton,
+  title: 'LeslieButton',
+  component: LeslieButton,
 };
 
 export const Button = () => ({
-  components: { LgButton },
-  template: '<lg-button label="提交" size="large" :primary="false" backgroundColor="#409FFE" @click="handleClick"></lg-button>',
+  components: { LeslieButton },
+  template: '<leslie-button label="提交" size="large" :primary="false" backgroundColor="#409FFE" @click="handleClick"></leslie-button>',
   methods: {
     handleClick() {
       console.info('handleClick')
@@ -16,7 +16,7 @@ export const Button = () => ({
 })
 
 export const Small = () => ({
-  components: { LgButton },
+  components: { LeslieButton },
   template: '<lg-button label="提交" size="small" :primary="false" backgroundColor="#409FFE" @click="handleClick"></lg-button>',
   methods: {
     handleClick() {

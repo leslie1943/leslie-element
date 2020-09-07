@@ -1,13 +1,13 @@
-import LgInput from '../'
+import LeslieInput from '../'
 
 export default {
-  title: 'LgInput',
-  component: LgInput,
+  title: 'LeslieInput',
+  component: LeslieInput,
 };
 
 export const Text = () => ({
-  components: { LgInput },
-  template: '<lg-input v-model="value"></lg-input>',
+  components: { LeslieInput },
+  template: '<leslie-input v-model="value"></leslie-input>',
   data() {
     return {
       value: 'admin'
@@ -16,7 +16,7 @@ export const Text = () => ({
 })
 
 export const Password = () => ({
-  components: { LgInput },
+  components: { LeslieInput },
   template: '<lg-input type="password" v-model="value"></lg-input>',
   data() {
     return {

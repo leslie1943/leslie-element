@@ -1,12 +1,12 @@
-import LgSteps from '..'
+import LeslieSteps from '..'
 
 export default {
-  title: 'LgSteps',
-  component: LgSteps,
+  title: 'LeslieSteps',
+  component: LeslieSteps,
 };
 
 export const Steps = () => ({
-  components: { LgSteps },
-  template: '<lg-steps :active="2"></lg-steps>',
+  components: { LeslieSteps },
+  template: '<leslie-steps :active="2"></leslie-steps>',
 
 })

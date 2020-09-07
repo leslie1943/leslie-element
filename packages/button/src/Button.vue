@@ -9,7 +9,7 @@
 <script>
 import './button.css'
 export default {
-  name: 'LgButton',
+  name: 'LeslieButton',
   props: {
     label: {
       type: String,
