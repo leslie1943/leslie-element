@@ -8,3 +8,6 @@
 - `private:true`: 根目录的内容不会发布
 
 #### Lerna介绍
+命令行登录npm stack的时候需要切换镜像源到 npmjs
+nrm ls
+nrm use npm 或者 npm config set registry https://registry.npmjs.org/
