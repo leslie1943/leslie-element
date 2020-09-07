@@ -1,0 +1,38 @@
+.lg-steps {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lg-steps-line {
+    position: absolute;
+    height: 2px;
+    top: 50%;
+    left: 24px;
+    right: 24px;
+    transform: translateY(-50%);
+    z-index: 1;
+    background-color: rgb(223, 231, 239);
+}
+
+.lg-step {
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    z-index: 2;
+    /* background-color: #fff; */
+    /*
+    box-sizing: 指定两个boxes接壤方式
+    border-box: 指定宽度和高度（最小/最大属性）确定元素边框
+      也就是说,对元素指定宽度和高度包括了 padding 和 border.
+      通过从已设定的宽度和高度分别减去边框和内边距才能得到内容的宽度和高度.
+     */
+    box-sizing: border-box;
+    font-size: 48px;
+}
