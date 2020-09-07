@@ -1,5 +1,5 @@
 {
-    "name": "leslie-button",
+    "name": "leslie-button-suzhen",
     "version": "0.0.4",
     "description": "",
     "main": "index.js",
@@ -11,5 +11,5 @@
     "dependencies": {
         "lodash": "4"
     },
-    "gitHead": "4dd4f0200279bac7065ad2d6dc24b3e3f8f6e5f3"
+    "gitHead": "9420cc239eef4de2ea4cd44b06554604a545954b"
 }
